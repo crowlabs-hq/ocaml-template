@@ -64,4 +64,4 @@ This will produce the `project-name` executable.
 
 ## License
 
-This project is licensed under ___ License - see the [LICENSE](./LICENSE) file for details.
+This project is licensed under **Apache 2.0** License - see the [LICENSE](./LICENSE) file for details.
