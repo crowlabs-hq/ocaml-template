@@ -16,8 +16,10 @@ opam:
 
 deps: opam-deps
 
+# The "|| true" is there just to hide the "make: *** [format] Error 1"
+# thrown by the 'dune fmt' when it detects some changes to be made
 format:
-	dune fmt
+	@dune fmt --auto-promote || true
 
 opam-deps:
 	@echo "${GREEN}Installing dependencies...${RESET}"
