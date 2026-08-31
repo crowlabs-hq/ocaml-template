@@ -14,7 +14,7 @@ all: $(NAME)
 opam:
 	dune build new-project.opam
 
-install: opam-deps
+deps: opam-deps
 
 format:
 	dune fmt
