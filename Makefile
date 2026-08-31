@@ -34,7 +34,7 @@ $(NAME):
 
 watch:
 	@echo "${GREEN}Starting watcher...${RESET}"
-	@dune build -w src/main.exe
+	@dune build -w src/bin/main.exe
 
 clean:
 	@echo "Cleaning..."
