@@ -1,0 +1,10 @@
+# Dune build and generated files
+_build/
+
+# Executable
+new-project
+
+# MacOS file
+.DS_Store
+
+.vscode/
